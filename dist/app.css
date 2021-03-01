@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.container-navbar {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+.container-navbar img {
+  margin: 20px;
+  vertical-align: middle;
+}
+.container-navbar span {
+  color: #5F6368;
+  font-weight: bold;
+}
+.container-navbar .navbar a {
+  text-decoration: none;
+}
+.container-navbar .navbar li {
+  display: inline;
+  margin-left: 20px;
+  color: #5F6368;
+  padding-bottom: 5px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.container-navbar .navbar li:hover {
+  color: #3367D6;
+  border-bottom: 2px solid #3367D6;
+}
+
+.container-main {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.container-main .paragraph-box .question {
+  color: #3C4043;
+  font-weight: bold;
+}
+.container-main .paragraph-box .answer p {
+  margin-top: 20px;
+}
+.container-main .paragraph-box .answer a {
+  text-decoration: none;
+  color: #3367D6;
+}
+.container-main .paragraph-box .answer ul {
+  list-style-type: decimal;
+}
+.container-main .paragraph-box .answer ul li {
+  margin-bottom: 20px;
+}
+.container-main .paragraph-box .answer .indentUl {
+  list-style-type: lower-alpha;
+  margin-left: 20px;
+}
