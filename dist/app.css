@@ -17,6 +17,9 @@
   color: #5F6368;
   font-weight: bold;
 }
+.container-navbar .navbar {
+  position: relative;
+}
 .container-navbar .navbar a {
   text-decoration: none;
 }
@@ -31,6 +34,26 @@
 .container-navbar .navbar li:hover {
   color: #3367D6;
   border-bottom: 2px solid #3367D6;
+}
+.container-navbar .menu {
+  position: absolute;
+  left: 1830px;
+  top: 20px;
+  color: #5F6368;
+}
+.container-navbar .menu:hover {
+  cursor: pointer;
+}
+.container-navbar .account {
+  color: #fff;
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 15px;
+  background-color: #8D6E63;
+  border-radius: 50%;
+}
+.container-navbar .account:hover {
+  cursor: pointer;
 }
 
 .container-main {
@@ -58,4 +81,27 @@
 .container-main .paragraph-box .answer .indentUl {
   list-style-type: lower-alpha;
   margin-left: 20px;
+}
+
+.container-footer {
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 450px;
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.container-footer a {
+  text-decoration: none;
+}
+.container-footer li {
+  display: inline;
+  color: #5F6368;
+  font-size: 10px;
+  margin-left: 5px;
+}
+.container-footer i {
+  color: #3367D6;
+  margin-right: 20px;
 }
